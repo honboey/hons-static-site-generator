@@ -137,7 +137,7 @@ function imageCopy() {
 
 // Watchtasks
 function watchTask() {
-  watch(["src/styles/*.css"], parallel(css));
+  watch(["src/styles/*.css", "tailwind.config.js"], parallel(css));
   watch(["src/templates/**/*.njk"], parallel(html));
   watch(["src/scripts/*.js"], parallel(scripts));
   watch(["src/img/**/*.{jpg,png,gif}"], parallel(images, imageCopy));

@@ -1,5 +1,5 @@
-# Tailwind Starter Kit
-This is a repository that holds some common plugins, workflows and file structure that is useful for starting a Tailwind project. It uses Gulp as the toolkit to automate the workflow.
+# hons-static-site-generator
+A static site generator I built.
 
 ## General workflow
 All source files are placed in [/src](/src). When you run `gulp develop` these files are processed and placed into [/dev](/dev). The files in [/dev](/dev) can be read by your browser.
@@ -82,5 +82,3 @@ There is another branch of this project called 'optionals'. This branch contains
 * [gulp-responsive](https://www.npmjs.com/package/gulp-responsive) for making multiple resolutions of images
 * [LazySizes](https://github.com/aFarkas/lazysizes) for lazy loading images
 * [gulp-rename](https://www.npmjs.com/package/gulp-rename) for renaming files and directory paths. This is used for renaming html files to index.html and placing them in a folder named after the original filename.
-
-
